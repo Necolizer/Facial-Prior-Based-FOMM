@@ -15,7 +15,9 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 * [3. Results in GIF](#3-results-in-gif)
 
-* [4. License](#4-license)
+* [4. Run the Code](#4-run-the-code)
+
+* [5. License](#5-license)
 
   
 
@@ -35,6 +37,38 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 To be done
 
-## 4. License
+## 4. Run the Code
+
+1. Prepare your dataset. Recommend CASME2, SAMM, SMIC-HS
+
+   Divide into `your_dataset/train` and `your_dataset/test`
+
+   Create or modify `yaml` format file `your_dataset_train.yaml` in `./config`
+
+2. Run `kpmaker.py`
+
+   ```shell
+   python kpmaker.py
+   ```
+
+   Key points of each video in your dataset would be generated in`./keypoint_folder`
+
+3. Train
+
+   ```shell
+   python run.py --config config/your_dataset_train.yaml
+   ```
+
+   Log and parameters would be saved in `./log`
+
+4. Test
+
+   ```shell
+   python run.py --config config/my_dataset_test.yaml --mode animate --checkpoint path/to/checkpoint
+   ```
+
+   Generated videos would be saved in `path/to/checkpoint/animation`
+
+## 5. License
 
 [MIT](https://github.com/Necolizer/Facial-Prior-Based-FOMM/blob/main/LICENSE)
