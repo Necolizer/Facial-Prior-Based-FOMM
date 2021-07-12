@@ -38,7 +38,7 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 > **NOTICE**: For visual presentation, all the GIFs have been **slowed down**.
 
-| No.  |                            Source                            |                             FOMM                             |                             MRAA                             |                            OurSA                             |                            OurSM                             |                            OurCA                             |                            OurMIX                            |
+| No.  |                            Source                            |                             FOMM                             |                             MRAA                             |                            OurSA                             |                            OurSM                             |                            OurCA                             |                            OurMX                             |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  1   |    <img src="./sup-mat/022_3_3.gif" style="zoom: 33%;" />    | <img src="./sup-mat/022_3_3_FOMM.gif" style="zoom: 33%;" />  | <img src="./sup-mat/022_3_3_MRAA.gif" style="zoom: 33%;" />  | <img src="./sup-mat/Positive_022_3_3_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_022_3_3_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/022_3_3_CASME2.gif" style="zoom: 33%;" /> |  <img src="./sup-mat/022_3_3_mix.gif" style="zoom: 33%;" />  |
 |  2   |   <img src="./sup-mat/s3_po_05.gif" style="zoom: 33%;" />    | <img src="./sup-mat/s3_po_05_FOMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MRAA.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_CASME2.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MIX.gif" style="zoom: 33%;" />  |
@@ -48,11 +48,11 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 `OurSA` == Our method, training on SAMM
 
-`OurSM` == Our method, training on SMIC
+`OurSM` == Our method, training on SMIC-HS
 
 `OurCA` == Our method, training on CASMEⅡ
 
-`OurMIX` == Our method, training on SAMM + SMIC + CASMEⅡ
+`OurMIX` == Our method, training on SAMM + SMIC-HS + CASMEⅡ
 
 ## 4. Run the Code
 
