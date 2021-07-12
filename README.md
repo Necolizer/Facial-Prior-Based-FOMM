@@ -31,11 +31,20 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 ## 2. Change Log
 
-- [2021/07/10] Create repository and add basic information.
+- [2021/07/12] Qualitative results are presented in GIF format.
+- [2021/07/10] Create repository, add basic information, and upload code.
 
 ## 3. Results in GIF
 
-To be done
+> **NOTICE**: For visual presentation, all the GIFs have been **slowed down**.
+
+| Case | Source                                                       | FOMM                                                         | MRAA                                                         | Our_SAMM                                                     | Our_SMIC                                                     | Our_CASME2                                                   | Our_MIX                                                      |
+| :--: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|  1   | <img src="./sup-mat/022_3_3.gif" style="zoom: 50%;" />       | <img src="./sup-mat/022_3_3_FOMM.gif" style="zoom: 50%;" />  | <img src="./sup-mat/022_3_3_MRAA.gif" style="zoom: 50%;" />  | <img src="./sup-mat/Positive_022_3_3_SAMM.gif" style="zoom: 50%;" /> | <img src="./sup-mat/Positive_022_3_3_SMIC.gif" style="zoom: 50%;" /> | <img src="./sup-mat/022_3_3_CASME2.gif" style="zoom: 50%;" /> | <img src="./sup-mat/022_3_3_mix.gif" style="zoom: 50%;" />   |
+|  2   | <img src="./sup-mat/s3_po_05.gif" style="zoom: 50%;" />      | <img src="./sup-mat/s3_po_05_FOMM.gif" style="zoom: 50%;" /> | <img src="./sup-mat/s3_po_05_MRAA.gif" style="zoom: 50%;" /> | <img src="./sup-mat/Positive_s3_po_05_SAMM.gif" style="zoom: 50%;" /> | <img src="./sup-mat/Positive_s3_po_05_SMIC.gif" style="zoom: 50%;" /> | <img src="./sup-mat/s3_po_05_CASME2.gif" style="zoom: 50%;" /> | <img src="./sup-mat/s3_po_05_MIX.gif" style="zoom: 50%;" />  |
+|  3   | <img src="./sup-mat/sub19_EP01_01f.gif" style="zoom: 50%;" /> | <img src="./sup-mat/sub19_EP01_01f_FOMM.gif" style="zoom: 50%;" /> | <img src="./sup-mat/sub19_EP01_01f_MRAA.gif" style="zoom: 50%;" /> | <img src="./sup-mat/Positive_EP01_01f_SAMM.gif" style="zoom: 50%;" /> | <img src="./sup-mat/Positive_EP01_01f_SMIC.gif" style="zoom: 50%;" /> | <img src="./sup-mat/sub19_EP01_01f_CASME2.gif" style="zoom: 50%;" /> | <img src="./sup-mat/sub19_EP01_01f_MIX.gif" style="zoom: 50%;" /> |
+
+
 
 ## 4. Run the Code
 
