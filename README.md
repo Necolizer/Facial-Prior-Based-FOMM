@@ -38,31 +38,7 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 > **NOTICE**: For visual presentation, all the GIFs have been **slowed down**.
 
-<style>
-table th:first-of-type {
-    width: 9%;
-}
-table th:nth-of-type(2) {
-    width: 13%;
-}
-table th:nth-of-type(3) {
-    width: 13%;
-}
-table th:nth-of-type(4) {
-    width: 13%;
-}
-table th:nth-of-type(5) {
-    width: 13%;
-}
-table th:nth-of-type(6) {
-    width: 13%;
-}
-table th:nth-of-type(7) {
-    width: 13%;
-}
-</style>
-
-| Case | Source                                                       | FOMM                                                         | MRAA                                                         | Our_SAMM                                                     | Our_SMIC                                                     | Our_CASME2                                                   | Our_MIX                                                      |
+| <div style="width:9%">Case</div> | <div style="width:13%">Source</div>                                                       | <div style="width:13%">FOMM</div>                                                         | <div style="width:13%">MRAA</div>                                                         | <div style="width:13%">Our_SAMM</div>                                                     | <div style="width:13%">Our_SMIC</div>                                                     | <div style="width:13%">Our_CASME2</div>                                                   | <div style="width:13%">Our_MIX</div>                                                      |
 | :--: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |  1   | <img src="./sup-mat/022_3_3.gif" style="zoom: 33%;" />       | <img src="./sup-mat/022_3_3_FOMM.gif" style="zoom: 33%;" />  | <img src="./sup-mat/022_3_3_MRAA.gif" style="zoom: 33%;" />  | <img src="./sup-mat/Positive_022_3_3_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_022_3_3_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/022_3_3_CASME2.gif" style="zoom: 33%;" /> | <img src="./sup-mat/022_3_3_mix.gif" style="zoom: 33%;" />   |
 |  2   | <img src="./sup-mat/s3_po_05.gif" style="zoom: 33%;" />      | <img src="./sup-mat/s3_po_05_FOMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MRAA.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_CASME2.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MIX.gif" style="zoom: 33%;" />  |
