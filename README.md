@@ -38,13 +38,21 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 > **NOTICE**: For visual presentation, all the GIFs have been **slowed down**.
 
-| Case | Source                                                       | &nbsp;&nbsp;&nbsp;FOMM&nbsp;&nbsp;&nbsp;                                                         | &nbsp;&nbsp;&nbsp;MRAA&nbsp;&nbsp;&nbsp;                                                       | &nbsp;Our_SAMM&nbsp;                                                     | &nbsp;Our_SMIC&nbsp;                                                     | Our_CASME2                                                   | &nbsp;&nbsp;Our_MIX&nbsp;                                                      |
-| :--: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|  1   | <img src="./sup-mat/022_3_3.gif" style="zoom: 33%;" />       | <img src="./sup-mat/022_3_3_FOMM.gif" style="zoom: 33%;" />  | <img src="./sup-mat/022_3_3_MRAA.gif" style="zoom: 33%;" />  | <img src="./sup-mat/Positive_022_3_3_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_022_3_3_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/022_3_3_CASME2.gif" style="zoom: 33%;" /> | <img src="./sup-mat/022_3_3_mix.gif" style="zoom: 33%;" />   |
-|  2   | <img src="./sup-mat/s3_po_05.gif" style="zoom: 33%;" />      | <img src="./sup-mat/s3_po_05_FOMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MRAA.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_CASME2.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MIX.gif" style="zoom: 33%;" />  |
+| No.  |                            Source                            |                             FOMM                             |                             MRAA                             |                            OurSA                             |                            OurSM                             |                            OurCA                             |                            OurMIX                            |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  1   |    <img src="./sup-mat/022_3_3.gif" style="zoom: 33%;" />    | <img src="./sup-mat/022_3_3_FOMM.gif" style="zoom: 33%;" />  | <img src="./sup-mat/022_3_3_MRAA.gif" style="zoom: 33%;" />  | <img src="./sup-mat/Positive_022_3_3_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_022_3_3_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/022_3_3_CASME2.gif" style="zoom: 33%;" /> |  <img src="./sup-mat/022_3_3_mix.gif" style="zoom: 33%;" />  |
+|  2   |   <img src="./sup-mat/s3_po_05.gif" style="zoom: 33%;" />    | <img src="./sup-mat/s3_po_05_FOMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MRAA.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_s3_po_05_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_CASME2.gif" style="zoom: 33%;" /> | <img src="./sup-mat/s3_po_05_MIX.gif" style="zoom: 33%;" />  |
 |  3   | <img src="./sup-mat/sub19_EP01_01f.gif" style="zoom: 33%;" /> | <img src="./sup-mat/sub19_EP01_01f_FOMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/sub19_EP01_01f_MRAA.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_EP01_01f_SAMM.gif" style="zoom: 33%;" /> | <img src="./sup-mat/Positive_EP01_01f_SMIC.gif" style="zoom: 33%;" /> | <img src="./sup-mat/sub19_EP01_01f_CASME2.gif" style="zoom: 33%;" /> | <img src="./sup-mat/sub19_EP01_01f_MIX.gif" style="zoom: 33%;" /> |
 
+`Source` == Source videos, also called driving videos
 
+`OurSA` == Our method, training on SAMM
+
+`OurSM` == Our method, training on SMIC
+
+`OurCA` == Our method, training on CASMEⅡ
+
+`OurMIX` == Our method, training on SAMM + SMIC + CASMEⅡ
 
 ## 4. Run the Code
 
