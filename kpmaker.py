@@ -1,4 +1,3 @@
-#
 import torch
 import os
 import dlib
@@ -8,7 +7,7 @@ from cropped import feature_generator
 seg_model = r'.\shape_predictor_68_face_landmarks.dat'
 predictor = dlib.shape_predictor(seg_model)
 
-root_dir_list = [r".\data\my_SAMM\train", r".\data\my_SAMM\test"]
+root_dir_list = [r".\data\my_dataset\train", r".\data\my_dataset\test"]
 
 for root_dir in root_dir_list:
     for i in os.listdir(root_dir):

@@ -2,15 +2,10 @@ import dlib
 import numpy as np
 import torch
 
-# 如果对网络输入一张图片，请从此处开始使用代码
 def feature_generator(pic, model):
-    """
-
-    :rtype: object
-    """
     au_num = np.empty([18, 2], dtype = np.float32)
     pic =pic[:,:,0:3]
-    # >>>>>>>> 人脸模型预测区 >>>>>>>>>>
+
     predictor = model
     detector = dlib.get_frontal_face_detector()
     dets = detector(pic, 1)
@@ -40,8 +35,7 @@ def feature_generator(pic, model):
         au_num[15][1] = au_num[15][1] + eye_distance / 2
         au_num[16][0] = au_num[16][0] - eye_distance / 2
         au_num[17][0] = au_num[17][0] + eye_distance / 2
-        # >>>>>>>>   关键点区 >>>>>>>>>
-        # a = make_masks(np.array(au_num), (pic.shape[0],pic.shape[1]), (64,64), 1)
+
         au_num = torch.tensor(au_num)
     a = 0
     return [a, au_num.requires_grad_(True)]

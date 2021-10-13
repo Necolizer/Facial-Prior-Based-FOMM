@@ -1,12 +1,15 @@
-# Written by tzx
 import numpy as np
 import matplotlib.pyplot as plt
 import itertools
 import torch
 import matplotlib.pyplot as plt
+import time
+
+
 def _gaussian(dis, sigma):
     return np.exp(-np.sqrt(dis) / (2 * sigma ** 2))
-import time
+
+
 def get_distance_map(points, size, sigma, kpnums):
     gmap1 = np.array(list(itertools.product(range(1, size[0] + 1), (range(1, size[1] + 1)))))
     gmap1 = np.expand_dims(gmap1, 0)
@@ -29,11 +32,9 @@ def get_distance_map(points, size, sigma, kpnums):
     for i in range(kpnums):
         out+=gmap1[i]
     out = out/out.max()
-    # mean = np.mean(out)
-    # mean = np.expand_dims(mean, 1)
-    # thresh = (out >= mean)
-    # out = out*thresh
+
     return out
+
 
 #keypoints 是在原人脸图片上的检测点， img_size是原图片的大小， feature_size是feature_map的大小, sigma是正态分布的标准差
 def make_masks(key_points, img_size, feature_size, sigma):
@@ -48,10 +49,11 @@ def make_masks(key_points, img_size, feature_size, sigma):
 
     return out
 
+
 if __name__ == '__main__':
     a = torch.load("kp.pt")
     print(a.shape)
     b = a[0]
     make_masks(b, (256,256), (64,64), 1.2)
     # print(np.array([(64,64), (30,23)]).shape)
-# (456,354)
+    # (456,354)

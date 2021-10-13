@@ -31,6 +31,7 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 ## 2. Change Log
 
+- [2021/10/13] Code Updated.
 - [2021/07/12] Qualitative results are presented in GIF format.
 - [2021/07/10] Create repository, add basic information, and upload code.
 
@@ -56,19 +57,19 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 ## 4. Run the Code
 
-1. Prepare your dataset. Recommend CASME2, SAMM, SMIC-HS
+1. Prepare your dataset. CASME2, SAMM, SMIC-HS are recommended.
 
-   Divide into `your_dataset/train` and `your_dataset/test`
+   Divide into `your_dataset/train` and `your_dataset/test`.
 
-   Create or modify `yaml` format file `your_dataset_train.yaml` in `./config`
+   Create or modify `yaml` format file `your_dataset_train.yaml` in `./config`.
 
-2. Run `kpmaker.py`
+2. Run `kpmaker.py`.
 
    ```shell
    python kpmaker.py
    ```
 
-   Key points of each video in your dataset would be generated in`./keypoint_folder`
+   Key points of each video in your dataset would be generated in`./keypoint_folder`.
 
 3. Train
 
@@ -76,15 +77,15 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
    python run.py --config config/your_dataset_train.yaml
    ```
 
-   Log and parameters would be saved in `./log`
+   Log and parameters would be saved in `./log`.
 
 4. Test
 
    ```shell
-   python run.py --config config/my_dataset_test.yaml --mode animate --checkpoint path/to/checkpoint
+   python run.py --config config/your_dataset_test.yaml --mode animate --checkpoint path-to-checkpoint
    ```
 
-   Generated videos would be saved in `path/to/checkpoint/animation`
+   Generated videos would be saved in `path-to-checkpoint/animation`.
 
 ## 5. License
 
