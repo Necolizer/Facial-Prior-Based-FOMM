@@ -1,5 +1,5 @@
-# Facial-Prior-Based-FOMM
-Facial Prior Based First Order Motion Model for Micro-expression Generation
+# Facial Prior Based First Order Motion Model for Micro-expression Generation
+This repository contains the source code for the paper [Facial Prior Based First Order Motion Model for Micro-expression Generation](https://doi.org/10.1145/3474085.3479211) included in [MM '21: Proceedings of the 29th ACM International Conference on Multimedia](https://dl.acm.org/doi/proceedings/10.1145/3474085).
 
 > **FME Challenge 2021 and ACM Multimedia 2021**  
 >
@@ -19,6 +19,8 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 * [5. License](#5-license)
 
+* [6. Citation](#6-citation)
+
   
 
 ## 1. Authors & Maintainers
@@ -31,6 +33,7 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 
 ## 2. Change Log
 
+- [2021/10/20] Our paper has been published online at https://doi.org/10.1145/3474085.3479211.
 - [2021/10/13] Code Updated.
 - [2021/07/12] Qualitative results are presented in GIF format.
 - [2021/07/10] Create repository, add basic information, and upload code.
@@ -90,3 +93,41 @@ Facial Prior Based First Order Motion Model for Micro-expression Generation
 ## 5. License
 
 [MIT](https://github.com/Necolizer/Facial-Prior-Based-FOMM/blob/main/LICENSE)
+
+## 6. Citation
+
+If you find this work or code helpful in your research, please consider citing:
+
+```
+@inproceedings{10.1145/3474085.3479211,
+author = {Zhang, Yi and Zhao, Youjun and Wen, Yuhang and Tang, Zixuan and Xu, Xinhua and Liu, Mengyuan},
+title = {Facial Prior Based First Order Motion Model for Micro-Expression Generation},
+year = {2021},
+isbn = {9781450386517},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3474085.3479211},
+doi = {10.1145/3474085.3479211},
+abstract = {Spotting facial micro-expression from videos finds various potential applications
+in fields including clinical diagnosis and interrogation, meanwhile this task is still
+difficult due to the limited scale of training data. To solve this problem, this paper
+tries to formulate a new task called micro-expression generation and then presents
+a strong baseline which combines the first order motion model with facial prior knowledge.
+Given a target face, we intend to drive the face to generate micro-expression videos
+according to the motion patterns of source videos. Specifically, our new model involves
+three modules. First, we extract facial prior features from a region focusing module.
+Second, we estimate facial motion using key points and local affine transformations
+with a motion prediction module. Third, expression generation module is used to drive
+the target face to generate videos. We train our model on public CASME II, SAMM and
+SMIC datasets and then use the model to generate new micro-expression videos for evaluation.
+Our model achieves the first place in the Facial Micro-Expression Challenge 2021 (MEGC2021),
+where our superior performance is verified by three experts with Facial Action Coding
+System certification. Source code is provided in https://github.com/Necolizer/Facial-Prior-Based-FOMM.},
+booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},
+pages = {4755–4759},
+numpages = {5},
+keywords = {facial micro-expression, facial landmark, deep learning, micro-expression generation, generative adversarial network},
+location = {Virtual Event, China},
+series = {MM '21}
+}
+```
