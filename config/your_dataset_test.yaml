@@ -1,7 +1,8 @@
 dataset_params:
-  root_dir: data/my_SAMM
+  root_dir: data/your_dataset
   frame_shape: [256, 256, 3]
-  id_sampling:  False
+  id_sampling:  True
+  pairs_list:  data/your_dataset_test.csv
   augmentation_params:
     flip_param:
       horizontal_flip: True
