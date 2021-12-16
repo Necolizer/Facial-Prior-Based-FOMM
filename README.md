@@ -106,22 +106,22 @@ This repository contains the source code for the paper [Facial Prior Based First
    ```
    Facial-Prior-Based-FOMM
    ├── data
-   |	├── your_dataset_test.csv
+   |   ├── your_dataset_test.csv
    |   └── your_dataset
    |    	├── train
    |       |   ├── 006_1_2
    |       |   |	├── 006_05562.png
    |       |   |	├── 006_05563.png
-   |       |	|	├── ...
+   |       |   |   ├── ...
    |       |   ├── 006_1_3
    |       |   ├── ... 
    |       └── test
    |           ├── normalized_westernMale
-   |				└── normalized_westernMale_gray.png
+   |			|   └── normalized_westernMale_gray.png
    |           ├── normalized_asianFemale
    |           ├── Surprise_007_7_1
-   |			|	├── 007_7030.png
-   |			|	├── ...
+   |           |   ├── 007_7030.png
+   |           |   ├── ...
    |           ├── Positive_022_3_3
    |           ├── Negative_018_3_1
    |           ├── Surprise_EP01_13
@@ -131,8 +131,8 @@ This repository contains the source code for the paper [Facial Prior Based First
    |           ├── Positive_s3_po_05
    |           └── Negative_s11_ne_02
    ├── config
-   |	├── your_dataset_train.yaml
-   |	└── your_dataset_test.yaml
+   |   ├── your_dataset_train.yaml
+   |   └── your_dataset_test.yaml
    ├── ...
    ```
 
