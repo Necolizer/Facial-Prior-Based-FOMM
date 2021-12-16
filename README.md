@@ -117,7 +117,7 @@ This repository contains the source code for the paper [Facial Prior Based First
    |       |   ├── ... 
    |       └── test
    |           ├── normalized_westernMale
-   |			|   └── normalized_westernMale_gray.png
+   |           |   └── normalized_westernMale_gray.png
    |           ├── normalized_asianFemale
    |           ├── Surprise_007_7_1
    |           |   ├── 007_7030.png
