@@ -11,7 +11,6 @@ def feature_generator(pic, model):
     dets = detector(pic, 1)
     if len(dets) == 0:
         au_num = torch.load(r'.\kp.pt').to("cpu")
-        au_num = au_num[0]
     else:
         for k, d in enumerate(dets):
             shape = predictor(pic, d)
